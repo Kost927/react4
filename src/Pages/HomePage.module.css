@@ -1,3 +1,9 @@
+
+.Navigation {
+border-bottom: 2px solid gray;
+}
+
+
 .NavigationList {
     display: flex;
     list-style: none;
