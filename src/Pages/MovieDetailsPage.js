@@ -60,7 +60,7 @@ class MovieDetailsPage extends Component {
               <Link
                 to={{
                   pathname: `${this.props.match.url}/cast`,
-                  state: { from: this.props.location.state.from },
+                  state: { from: this.props.location.state?.from },
                 }}
               >
                 Cast
@@ -70,7 +70,7 @@ class MovieDetailsPage extends Component {
               <Link
                 to={{
                   pathname: `${this.props.match.url}/reviews`,
-                  state: { from: this.props.location.state.from },
+                  state: { from: this.props.location.state?.from },
                 }}
               >
                 Reviews
